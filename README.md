@@ -1,6 +1,6 @@
 # CG-Extensions
 
-Extra operators and utility functions for CGPoint, CGSize and CGRect.
+Arithmetic operators and utility functions for CGPoint, CGSize and CGRect.
 
 Based on CGMath https://gist.github.com/gurgeous/bc0c3d2e748c3b6fe7f2
 
