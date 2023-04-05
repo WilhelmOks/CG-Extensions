@@ -14,3 +14,15 @@ let offset = CGPoint(x: 3, y: -2)
 let result = start + offset * 2
 //result is a CGPoint with x=11 and y=3 
 ```
+
+## Swift Package Manager
+
+This library is a Swift Package and can be added using this URL:
+```
+https://github.com/WilhelmOks/CG-Extensions.git
+```
+
+Import the module `CGExtensions` in your code:
+```
+import CGExtensions
+```
