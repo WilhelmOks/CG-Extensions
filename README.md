@@ -8,7 +8,7 @@ Based on CGMath https://gist.github.com/gurgeous/bc0c3d2e748c3b6fe7f2
 
 Use arithmetic operators on `CGPoint` and `CGSize`, mixed with scalar values for multiplication and division:
 
-```
+```swift
 let start = CGPoint(x: 5, y: 7)
 let offset = CGPoint(x: 3, y: -2)
 let result = start + offset * 2
@@ -17,14 +17,14 @@ let result = start + offset * 2
 
 You can mix CGPoint and CGSize with all operators:
 
-```
+```swift
 let result = CGPoint(x: 5, y: 7) + CGSize(x: 3, y: -2)
 //result has the type of the operator's left hand side. CGPoint in this case.
 ```
 
 Convert between CGPoint and CGSize:
 
-```
+```swift
 let point = CGSize(width: 400, height: 300).point()
 let size = CGPoint(x: 400, y: 300).size()
 ```
@@ -39,6 +39,6 @@ https://github.com/WilhelmOks/CG-Extensions.git
 ```
 
 Import the module `CGExtensions` in your code:
-```
+```swift
 import CGExtensions
 ```
